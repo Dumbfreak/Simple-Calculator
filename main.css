@@ -6,7 +6,6 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: rgb(20, 20, 20);
-  padding: 0;
 }
 
 #calculator {
@@ -103,6 +102,9 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+    padding: 0;
+  }
   #display {
     width: 100%;
     padding: 20px;
@@ -122,6 +124,9 @@ button {
 }
 
 @media only screen and (min-width: 1025px) {
+  body {
+    padding: 0;
+  }
   #display {
     width: 100%;
     padding: 20px;
