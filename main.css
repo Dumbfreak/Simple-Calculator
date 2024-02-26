@@ -14,7 +14,7 @@ body {
   border-radius: 15px;
   max-width: 500px;
   overflow: hidden;
-  overflow-y: overlay;
+  overflow-y: hidden;
 }
 
 #display {
