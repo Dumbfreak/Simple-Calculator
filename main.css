@@ -6,7 +6,6 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: rgb(20, 20, 20);
-  overflow: hidden;
   padding: 0;
 }
 
@@ -22,6 +21,26 @@ body {
   border: none;
   background-color: hsl(0, 0%, 20%);
   color: white;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn {
+  background-color: hsl(38, 100%, 50%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(38, 100%, 55%);
+}
+
+.operator-btn:active {
+  background-color: hsl(38, 100%, 65%);
 }
 
 button {
@@ -40,9 +59,12 @@ button {
 }
 
 @media only screen and (min-width: 360px) {
+  body {
+    padding: 0 20px;
+  }
   #display {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     font-size: 2rem;
   }
 
@@ -50,26 +72,6 @@ button {
     width: 65px;
     height: 65px;
     font-size: 1.5rem;
-  }
-
-  button:hover {
-    background-color: hsl(0, 0%, 40%);
-  }
-
-  button:active {
-    background-color: hsl(0, 0%, 50%);
-  }
-
-  .operator-btn {
-    background-color: hsl(38, 100%, 50%);
-  }
-
-  .operator-btn:hover {
-    background-color: hsl(38, 100%, 55%);
-  }
-
-  .operator-btn:active {
-    background-color: hsl(38, 100%, 65%);
   }
 
   #keys {
@@ -91,26 +93,6 @@ button {
     font-size: 1.5rem;
   }
 
-  button:hover {
-    background-color: hsl(0, 0%, 40%);
-  }
-
-  button:active {
-    background-color: hsl(0, 0%, 50%);
-  }
-
-  .operator-btn {
-    background-color: hsl(38, 100%, 50%);
-  }
-
-  .operator-btn:hover {
-    background-color: hsl(38, 100%, 55%);
-  }
-
-  .operator-btn:active {
-    background-color: hsl(38, 100%, 65%);
-  }
-
   #keys {
     gap: 10px;
     padding: 25px;
@@ -130,26 +112,6 @@ button {
     font-size: 1.5rem;
   }
 
-  button:hover {
-    background-color: hsl(0, 0%, 40%);
-  }
-
-  button:active {
-    background-color: hsl(0, 0%, 50%);
-  }
-
-  .operator-btn {
-    background-color: hsl(38, 100%, 50%);
-  }
-
-  .operator-btn:hover {
-    background-color: hsl(38, 100%, 55%);
-  }
-
-  .operator-btn:active {
-    background-color: hsl(38, 100%, 65%);
-  }
-
   #keys {
     gap: 10px;
     padding: 25px;
@@ -167,26 +129,6 @@ button {
     width: 65px;
     height: 65px;
     font-size: 1.5rem;
-  }
-
-  button:hover {
-    background-color: hsl(0, 0%, 40%);
-  }
-
-  button:active {
-    background-color: hsl(0, 0%, 50%);
-  }
-
-  .operator-btn {
-    background-color: hsl(38, 100%, 50%);
-  }
-
-  .operator-btn:hover {
-    background-color: hsl(38, 100%, 55%);
-  }
-
-  .operator-btn:active {
-    background-color: hsl(38, 100%, 65%);
   }
 
   #keys {
