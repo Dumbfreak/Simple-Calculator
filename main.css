@@ -42,6 +42,7 @@ button:active {
 
 .operator-btn:active {
   background-color: hsl(38, 100%, 65%);
+  border-radius: 50px;
 }
 
 button {
