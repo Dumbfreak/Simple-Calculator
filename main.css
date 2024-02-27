@@ -63,7 +63,13 @@ button {
 @media only screen and (min-width: 360px) {
   body {
     padding: 0 20px;
+    overflow: hidden;
   }
+
+  #calculator {
+    overflow: hidden;
+  }
+
   #display {
     width: 100%;
     padding: 30px;
@@ -85,7 +91,13 @@ button {
 @media only screen and (min-width: 449px) {
   body {
     padding: 0 20px;
+    overflow: hidden;
   }
+
+  #calculator {
+    overflow: hidden;
+  }
+
   #display {
     width: 100%;
     padding: 20px;
