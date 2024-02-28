@@ -6,13 +6,12 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: rgb(20, 20, 20);
-  overflow-y: overlay;
+  overflow-y: hidden;
 }
 
 #calculator {
   background-color: rgb(146, 146, 146);
   border-radius: 15px;
-  max-width: 500px;
   overflow: hidden;
   overflow-y: hidden;
 }
@@ -72,7 +71,7 @@ button {
 
   #display {
     width: 100%;
-    padding: 30px;
+    padding: 35px;
     font-size: 2rem;
   }
 
@@ -91,23 +90,23 @@ button {
 @media only screen and (min-width: 449px) {
   body {
     padding: 0 20px;
-    overflow: hidden;
+    overflow-y: hidden;
   }
 
   #calculator {
-    overflow: hidden;
+    overflow-y: hidden;
   }
 
   #display {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     font-size: 2rem;
   }
 
   button {
-    width: 65px;
-    height: 65px;
-    font-size: 1.5rem;
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
   }
 
   #keys {
@@ -141,17 +140,23 @@ button {
 @media only screen and (min-width: 1025px) {
   body {
     padding: 0;
+    margin: 0;
   }
+
+  #calculator {
+    max-width: 1000px;
+  }
+
   #display {
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     font-size: 2rem;
   }
 
   button {
-    width: 65px;
-    height: 65px;
-    font-size: 1.5rem;
+    width: 100px;
+    height: 100px;
+    font-size: 2.5rem;
   }
 
   #keys {
